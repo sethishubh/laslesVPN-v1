@@ -1,0 +1,179 @@
+.plans_container>h2 {
+    font-size: 4rem;
+}
+
+.plans_container>p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.plans_container {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.plans_items {
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+    justify-content: center;
+    height: 70rem;
+}
+
+.plans_items h2 {
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+
+.plan_one,
+.plan_two,
+.plan_three {
+    padding: 1rem;
+    border: 1px solid rgba(214, 214, 214, 0.473);
+    border-radius: 10px;
+    flex-basis: 30%;
+}
+
+.plan_one:hover,
+.plan_two:hover,
+.plan_three:hover {
+    border: 1px solid #F53838;
+    cursor: pointer;
+}
+
+.freebox_svg {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1rem;
+}
+
+.plans_container ul {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 1054px) {
+    .plans_container ul {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .plans_container ul {
+        width: 100%;
+    }
+}
+
+.plans_container li {
+    text-align: left;
+    list-style-type: none;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.plans_container li .fa-check {
+    color: green;
+    margin-right: 2rem;
+}
+
+.plan_one h2:nth-of-type(2),
+.plan_two h2:nth-of-type(2),
+.plan_three h2:nth-of-type(2) {
+    font-size: 3rem;
+}
+
+.plan_one h2:nth-of-type(2) {
+    margin-top: 12rem;
+}
+
+.plan_two h2:nth-of-type(2) {
+    margin-top: 9rem;
+}
+
+.plan_three h2:nth-of-type(2) {
+    margin-top: 5rem;
+}
+
+.plans_container span {
+    font-weight: normal;
+}
+
+.plans_container button {
+    background-color: white;
+    color: #F53838;
+    padding: 1rem 5rem;
+    border: 1px solid #F53838;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.plans_container button:hover {
+    background-color: #F53838;
+    color: white;
+}
+
+.mapglbl {
+    width: 80%;
+    height: 80%;
+    margin-top: 4rem;
+}
+
+.companies_greyed {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.brand_img {
+    width: 100%;
+    height: 50%;
+}
+
+@media only screen and (max-width: 694px) {
+    .plans_items {
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .plans_container ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    .plan_one h2:nth-of-type(2) {
+        margin-top: 5rem;
+    }
+
+    .plan_two h2:nth-of-type(2) {
+        margin-top: 5rem;
+    }
+
+    .plan_three h2:nth-of-type(2) {
+        margin-top: 5rem;
+    }
+
+    .plans_container .freebox_svg {
+        height: 20%;
+        width: 20%;
+    }
+}
+
+
+@media only screen and (max-width: 646px) {
+    .plans_container ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}

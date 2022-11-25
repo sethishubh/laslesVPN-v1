@@ -1,0 +1,50 @@
+.reviewcard {
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid #b3b3b3;
+    min-width: 40rem;
+}
+
+.reviewcard p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    /* margin-bottom: 1rem; */
+}
+
+.reviewcard:hover {
+    border: 1px solid #F53838;
+    cursor: pointer;
+}
+
+.review_content_header {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.5fr;
+    align-items: center;
+}
+
+.reviewcard img {
+    width: 70%;
+    justify-self: center;
+}
+
+.review_owner {
+    text-align: left;
+    font-size: 1.4rem;
+    justify-self: left;
+}
+
+.review_owner_txt {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.review_rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review_rating .fa-star {
+    color: #b89215;
+    font-size: 1.2rem;
+}

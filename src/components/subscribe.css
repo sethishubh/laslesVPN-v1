@@ -1,0 +1,51 @@
+.subscription_container .subscription_left_col h2 {
+    font-size: 4rem;
+}
+
+.subscription_container .subscription_left_col p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-top: 1.4rem;
+}
+
+.subscription_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    box-shadow: 1px 10px 20px 0px grey;
+    border-radius: 10px;
+}
+
+.subscription_right_col button {
+    background-color: #F53838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem 7rem;
+    box-shadow: 0 40px 15px -15px #e6dada;
+    font-size: large;
+    cursor: pointer;
+}
+
+.subscription_right_col button:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 778px) {
+    .subscription_container .subscription_left_col h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+
+    .subscription_container {
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+}

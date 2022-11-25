@@ -1,0 +1,77 @@
+.features_container .ftrs_ill_img {
+    height: 90%;
+    width: 90%;
+}
+
+.features_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.features_col_right h2 {
+    margin-top: 4rem;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    font-weight: 500;
+    width: 90%;
+}
+
+.features_col_right {
+    padding: 1rem;
+}
+
+.features_col_right p {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+
+.features_col_right ul li {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    background: url('../assets/Group1120.svg') no-repeat 1px transparent;
+    list-style-type: none;
+    padding: 0px 0px 1px 3rem;
+}
+
+@media only screen and (max-width: 742px) {
+    .features_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .features_col_left {
+        text-align: center;
+    }
+
+    .features_col_right {
+        text-align: center;
+    }
+
+    .features_col_right ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        text-align: left;
+    }
+
+    .features_container .ftrs_ill_img {
+        width: 70%;
+        /* height: 70%; */
+    }
+}
+
+@media only screen and (max-width: 586px) {
+
+    .features_col_right ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        text-align: left;
+    }
+}
